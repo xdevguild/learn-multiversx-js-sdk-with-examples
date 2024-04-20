@@ -1,0 +1,17 @@
+{
+  "name": "sdk-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@multiversx/sdk-core": "^13.1.0",
+    "@multiversx/sdk-network-providers": "^2.4.3",
+    "@multiversx/sdk-wallet": "^4.4.0"
+  }
+}
