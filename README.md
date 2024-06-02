@@ -21,7 +21,7 @@ Ensure you have Node.js installed on your system to run the examples. You can do
 
 ## Current Examples
 
-Currently, the repository hosts two examples. More examples will be added progressively. Each part/example is associated with a separate git tag. As new examples are added, each tag will not only include the new work but will also retain earlier examples, which are organized into separate files with descriptive names. This structure allows users to easily understand and trace the development of each example, as well as access previous versions cleanly and efficiently.
+Currently, the repository hosts three examples. More examples will be added progressively. Each part/example is associated with a separate git tag. As new examples are added, each tag will not only include the new work but will also retain earlier examples, which are organized into separate files with descriptive names. This structure allows users to easily understand and trace the development of each example, as well as access previous versions cleanly and efficiently.
  To check out a specific tag, use:
 
 ```bash
@@ -41,6 +41,13 @@ git checkout <tag_name>
 - **Description**: This example demonstrates how to transfer tokens using the MultiversX JavaScript SDK on the devnet.
 - **Article**: [Transfer tokens using MultiversX JavaScript SDK](https://www.julian.io/articles/multiversx-js-sdk-transfers.html)
 - **Video**: [Transfer tokens using MultiversX JavaScript SDK](https://www.youtube.com/watch?v=prtL2kx7Bcc)
+
+### Example 3: Token transfers
+
+- **Tag**: `smart-contract-deployment`
+- **Description**: This example demonstrates how to deploy a smart contract using the MultiversX JavaScript SDK on the devnet.
+- **Article**: [Mastering smart contract deployment with MultiversX JavaScript SDK](https://www.julian.io/articles/multiversx-js-sdk-sc-deployment.html)
+- **Video**: [Mastering smart contract deployment with MultiversX JavaScript SDK](https://www.youtube.com/watch?v=Rk-vHqd2avs)
 
 ## Security and Wallet Information
 
