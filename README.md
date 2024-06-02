@@ -42,7 +42,7 @@ git checkout <tag_name>
 - **Article**: [Transfer tokens using MultiversX JavaScript SDK](https://www.julian.io/articles/multiversx-js-sdk-transfers.html)
 - **Video**: [Transfer tokens using MultiversX JavaScript SDK](https://www.youtube.com/watch?v=prtL2kx7Bcc)
 
-### Example 3: Token transfers
+### Example 3: Smart contract deployment
 
 - **Tag**: `smart-contract-deployment`
 - **Description**: This example demonstrates how to deploy a smart contract using the MultiversX JavaScript SDK on the devnet.
