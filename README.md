@@ -49,6 +49,13 @@ git checkout <tag_name>
 - **Article**: [Mastering smart contract deployment with MultiversX JavaScript SDK](https://www.julian.io/articles/multiversx-js-sdk-sc-deployment.html)
 - **Video**: [Mastering smart contract deployment with MultiversX JavaScript SDK](https://www.youtube.com/watch?v=Rk-vHqd2avs)
 
+### Example 4: Smart contract interactions
+
+- **Tag**: `smart-contract-interactions`
+- **Description**: This example demonstrates how to interact with a smart contract using the MultiversX JavaScript SDK on the devnet.
+- **Article**: [Step-by-step guide to MultiversX smart contract interactions with JavaScript SDK](https://www.julian.io/articles/multiversx-js-sdk-sc-interactions.html)
+- **Video**: [Step-by-step guide to MultiversX smart contract interactions with JavaScript SDK](https://www.youtube.com/watch?v=TMDC5yxT4_c)
+
 ## Security and Wallet Information
 
 The examples use a demo wallet with a hardcoded password. All interactions occur on the **devnet** (development network of MultiversX), ensuring that it is safe to expose the wallet credentials. The devnet is designed for testing and development, involving no real assets. Don't do this on the mainnet.

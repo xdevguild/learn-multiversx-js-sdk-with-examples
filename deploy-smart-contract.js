@@ -5,6 +5,7 @@ import {
   SmartContractTransactionsFactory,
   Code,
   Address,
+  AbiRegistry,
   TransactionWatcher,
   SmartContractTransactionsOutcomeParser,
   TransactionsConverter,
@@ -29,12 +30,13 @@ const deploySmartContract = async () => {
   // Load ABI file (not required for now, but will be useful when interacting with the SC)
   // Although it would be helpful if we had initial arguments to pass
   const abiFile = await promises.readFile("./piggybank.abi.json", "UTF-8");
+  const abiObj = JSON.parse(abiFile);
 
   // Prepare transfer transactions factory
   const factoryConfig = new TransactionsFactoryConfig({ chainID: "D" });
   let scFactory = new SmartContractTransactionsFactory({
     config: factoryConfig,
-    abi: abiFile,
+    abi: AbiRegistry.create(abiObj),
   });
 
   // Prepare deploy transaction
@@ -81,8 +83,6 @@ const deploySmartContract = async () => {
   const transactionOutcome =
     converter.transactionOnNetworkToOutcome(transactionOnNetwork);
   const parsedOutcome = parser.parseDeploy({ transactionOutcome });
-
-  console.log(parsedOutcome);
 
   console.log(
     `Smart Contract deployed. Here it is:\nhttps://devnet-explorer.multiversx.com/accounts/${parsedOutcome.contracts[0].address}\n\nCheck the transaction in the Explorer:\nhttps://devnet-explorer.multiversx.com/transactions/${txHash}`
