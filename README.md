@@ -58,7 +58,7 @@ git checkout <tag_name>
 
 ### Example 5: Create NFT
 
-- **Tag**: `smart-contract-interactions`
+- **Tag**: `create-nft`
 - **Description**: This example demonstrates how to create an NFT using the MultiversX JavaScript SDK on the devnet.
 - **Article**: [Creating NFTs with MultiversX Blockchain Using JavaScript SDK](https://www.julian.io/articles/multiversx-js-sdk-create-nft.html)
 - **Video**: [Creating NFTs with MultiversX Blockchain Using JavaScript SDK](https://www.youtube.com/watch?v=3I2ZEE4ntSA)
