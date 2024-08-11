@@ -10,7 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@multiversx/sdk-core": "^13.2.1",
+    "@multiversx/sdk-core": "^13.3.0",
     "@multiversx/sdk-network-providers": "^2.4.3",
     "@multiversx/sdk-wallet": "^4.5.0"
   }

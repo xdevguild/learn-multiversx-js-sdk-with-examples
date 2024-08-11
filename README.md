@@ -56,6 +56,13 @@ git checkout <tag_name>
 - **Article**: [Step-by-step guide to MultiversX smart contract interactions with JavaScript SDK](https://www.julian.io/articles/multiversx-js-sdk-sc-interactions.html)
 - **Video**: [Step-by-step guide to MultiversX smart contract interactions with JavaScript SDK](https://www.youtube.com/watch?v=TMDC5yxT4_c)
 
+### Example 5: Create NFT
+
+- **Tag**: `smart-contract-interactions`
+- **Description**: This example demonstrates how to create an NFT using the MultiversX JavaScript SDK on the devnet.
+- **Article**: [Creating NFTs with MultiversX Blockchain Using JavaScript SDK](https://www.julian.io/articles/multiversx-js-sdk-create-nft.html)
+- **Video**: [Creating NFTs with MultiversX Blockchain Using JavaScript SDK](https://www.youtube.com/watch?v=3I2ZEE4ntSA)
+
 ## Security and Wallet Information
 
 The examples use a demo wallet with a hardcoded password. All interactions occur on the **devnet** (development network of MultiversX), ensuring that it is safe to expose the wallet credentials. The devnet is designed for testing and development, involving no real assets. Don't do this on the mainnet.
