@@ -1,10 +1,10 @@
 # MultiversX JavaScript SDK Examples
 
-Welcome to the repository containing code examples for the JavaScript SDK of the MultiversX blockchain. This collection of examples demonstrates various features and capabilities of the SDK to help developers effectively integrate and utilize MultiversX in their projects.
+Welcome to the repository containing code examples for the [JavaScript/TypeScript SDK](https://docs.multiversx.com/sdk-and-tools/sdk-js) of the MultiversX blockchain. This collection of examples demonstrates various SDK features and capabilities to help developers effectively integrate and utilize MultiversX in their projects.
 
 ## Overview
 
-This repository is structured to gradually include multiple demonstrations. Each example is organized into its own section and will be tagged accordingly to facilitate easy navigation and version control.
+This repository is structured to include multiple demonstrations gradually. Each example is organized into its section and will be tagged accordingly to facilitate easy navigation and version control.
 
 ## Getting Started
 
@@ -17,11 +17,11 @@ cd multiversx-js-sdk-examples
 
 ### Prerequisites
 
-Ensure you have Node.js installed on your system to run the examples. You can download Node.js from [nodejs.org](https://nodejs.org/).
+To run the examples, ensure you have Node.js installed on your system. You can download Node.js from [nodejs.org](https://nodejs.org/).
 
 ## Current Examples
 
-Currently, the repository hosts three examples. More examples will be added progressively. Each part/example is associated with a separate git tag. As new examples are added, each tag will not only include the new work but will also retain earlier examples, which are organized into separate files with descriptive names. This structure allows users to easily understand and trace the development of each example, as well as access previous versions cleanly and efficiently.
+More examples will be added progressively. Each part/example is associated with a separate git tag. As new examples are added, each tag will include the latest work and retain earlier examples, organized into individual files with descriptive names. This structure allows users to easily understand and trace the development of each example and access previous versions cleanly and efficiently.
  To check out a specific tag, use:
 
 ```bash
@@ -31,21 +31,21 @@ git checkout <tag_name>
 ### Example 1: Setup and basic transaction
 
 - **Tag**: `setup-and-transaction`
-- **Description**: This example demonstrates how to setup required tools and helpers and perform basic transaction using the MultiversX JavaScript SDK on the devnet.
+- **Description**: This example demonstrates how to set up required tools and helpers and perform basic transactions using the MultiversX JavaScript SDK on the devnet.
 - **Article**: [Intro to MultiversX blockchain interactions with JavaScript SDK](https://www.julian.io/articles/multiversx-js-sdk-intro.html)
 - **Video**: [Intro to MultiversX blockchain interactions with JavaScript SDK](https://www.youtube.com/watch?v=Fxxdly9QYHw)
 
 ### Example 2: Token transfers
 
 - **Tag**: `token-transfers`
-- **Description**: This example demonstrates how to transfer tokens using the MultiversX JavaScript SDK on the devnet.
+- **Description**: This example demonstrates transferring tokens using the MultiversX JavaScript SDK on the devnet.
 - **Article**: [Transfer tokens using MultiversX JavaScript SDK](https://www.julian.io/articles/multiversx-js-sdk-transfers.html)
 - **Video**: [Transfer tokens using MultiversX JavaScript SDK](https://www.youtube.com/watch?v=prtL2kx7Bcc)
 
 ### Example 3: Smart contract deployment
 
 - **Tag**: `smart-contract-deployment`
-- **Description**: This example demonstrates how to deploy a smart contract using the MultiversX JavaScript SDK on the devnet.
+- **Description**: This example demonstrates deploying a smart contract using the MultiversX JavaScript SDK on the devnet.
 - **Article**: [Mastering smart contract deployment with MultiversX JavaScript SDK](https://www.julian.io/articles/multiversx-js-sdk-sc-deployment.html)
 - **Video**: [Mastering smart contract deployment with MultiversX JavaScript SDK](https://www.youtube.com/watch?v=Rk-vHqd2avs)
 
@@ -59,13 +59,13 @@ git checkout <tag_name>
 ### Example 5: Create NFT
 
 - **Tag**: `create-nft`
-- **Description**: This example demonstrates how to create an NFT using the MultiversX JavaScript SDK on the devnet.
+- **Description**: This example demonstrates creating an NFT using the MultiversX JavaScript SDK on the devnet.
 - **Article**: [Creating NFTs with MultiversX Blockchain Using JavaScript SDK](https://www.julian.io/articles/multiversx-js-sdk-create-nft.html)
 - **Video**: [Creating NFTs with MultiversX Blockchain Using JavaScript SDK](https://www.youtube.com/watch?v=3I2ZEE4ntSA)
 
 ## Security and Wallet Information
 
-The examples use a demo wallet with a hardcoded password. All interactions occur on the **devnet** (development network of MultiversX), ensuring that it is safe to expose the wallet credentials. The devnet is designed for testing and development, involving no real assets. Don't do this on the mainnet.
+The examples use a demo wallet with a hardcoded password. All interactions occur on the **devnet** (the development network of MultiversX), ensuring it is safe to expose the wallet credentials. The devnet is designed for testing and development and does not involve real assets.
 
 ## Disclaimer
 
@@ -73,8 +73,8 @@ These examples are provided "as is" without any warranty. They are intended for 
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions, improvements, or additional examples, feel free to open an issue or submit a pull request.
+Contributions are welcome! If you have suggestions, improvements, or additional examples, please feel free to open an issue or submit a pull request.
 
 ## Contact
 
-For further assistance or inquiries, feel free to reach out through X ([@theJulianIo](http://x.com/theJulianIo)) or by submitting an issue in this repository.
+If you need further assistance or have inquiries, feel free to contact us through X ([@theJulianIo](http://x.com/theJulianIo)) or by submitting an issue in this repository.
